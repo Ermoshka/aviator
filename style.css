@@ -3,6 +3,42 @@
   box-sizing: border-box;
 }
 
+
+.show1 {
+  animation-delay: 0.5s;
+}
+
+.show2 {
+  animation-delay: 1s;
+}
+
+.show3 {
+  animation-delay: 1.5s;
+}
+
+.show4 {
+  animation-delay: 2s;
+}
+
+.show1, .show2, .show3, .show4 {
+  opacity: 0;
+  animation-name: show1;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes show1 {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 body {
   margin: 0 auto;
   font-family: "Exo", sans-serif;
