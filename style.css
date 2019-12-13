@@ -3,6 +3,9 @@
   box-sizing: border-box;
 }
 
+div#name {
+  text-align: center;
+}
 
 .show1 {
   animation-delay: 0.5s;
