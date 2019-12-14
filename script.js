@@ -10,4 +10,4 @@ let timeoutId = setTimeout(() => {
     name.classList.add("show2");
     btn.classList.add("show3");
     cert.classList.add("show4");
-}, 15 * 1000);
+}, 7 * 1000);
