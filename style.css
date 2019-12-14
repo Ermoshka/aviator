@@ -91,11 +91,11 @@ main header p, h1 {
 
 main header .avatar {
   box-shadow: 0 0 15px 0px #a166ab;
-  animation-name: rotateborder;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
+  /* animation-name: rotateborder; */
+ /*  animation-duration: 2s;
+  animation-fill-mode: forwards; */
   position: relative;
-  animation-iteration-count: infinite;
+  /* animation-iteration-count: infinite; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,10 +127,10 @@ main header .avatar {
 
 main header .photo {
   position: absolute;
-  animation-name: fixphoto;
-  animation-duration: 2s;
+  /* animation-name: fixphoto; */
+  /* animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite; */
   background: url('ava.jpg') no-repeat;
   background-size: cover;
   background-position: center center;
