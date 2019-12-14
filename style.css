@@ -94,7 +94,7 @@ main header .avatar {
   /* animation-name: rotateborder; */
  /*  animation-duration: 2s;
   animation-fill-mode: forwards; */
-  position: relative;
+  /* position: relative; */
   /* animation-iteration-count: infinite; */
   display: flex;
   justify-content: center;
@@ -126,7 +126,7 @@ main header .avatar {
 }
 
 main header .photo {
-  position: absolute;
+  /* position: absolute; */
   /* animation-name: fixphoto; */
   /* animation-duration: 2s;
   animation-fill-mode: forwards;
